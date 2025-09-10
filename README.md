@@ -1,4 +1,4 @@
-# RAG Agent
+# DocuMate
 
 This project is a Retrieval-Augmented Generation (RAG) Agent with a full-stack architecture:
 
