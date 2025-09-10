@@ -1,0 +1,27 @@
+# .gitignore
+# Ignore Python virtual environments
+venv/
+
+# Environment variables
+.env
+*.env
+backend/.env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Ignore database and model cache (optional, remove if you want to version these)
+backend/db/chroma_db/
+backend/model_cache/
+
+# Ignore frontend build output
+frontend/dist/
+
+# Node modules
+frontend/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+Thumbs.db
