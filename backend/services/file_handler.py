@@ -1,6 +1,6 @@
 import os
 import logging
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from services.vectorstore import get_vectorstore, add_documents
 from services.embeddings import get_embeddings
 from langchain_community.document_loaders import PyPDFLoader, TextLoader, Docx2txtLoader
